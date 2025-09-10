@@ -1,5 +1,7 @@
 package lab1;
 
+import java.sql.SQLOutput;
+
 public class Multiples {
     public static void main(String[] args) {
         int count = multiples(1000, 5,3);
@@ -20,5 +22,9 @@ public class Multiples {
             }
         }
         return total;
+    }
+
+    public static int multiples() {
+        return multiples(1000, 5,3);
     }
 }
